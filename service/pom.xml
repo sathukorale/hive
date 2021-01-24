@@ -301,12 +301,12 @@
       <scope>test</scope>
     </dependency>
 
-    <dependency>
-      <groupId>org.apache.directory.client.ldap</groupId>
-      <artifactId>ldap-client-api</artifactId>
+    <!--dependency>
+      <groupId>org.apache.directory.api</groupId>
+      <artifactId>api-ldap-client-api</artifactId>
       <version>${apache-directory-clientapi.version}</version>
       <scope>test</scope>
-    </dependency>
+    </dependency-->
 
     <dependency>
       <groupId>org.apache.directory.server</groupId>
