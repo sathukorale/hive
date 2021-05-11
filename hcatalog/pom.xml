@@ -53,6 +53,12 @@
       <version>${mockito-all.version}</version>
       <scope>test</scope>
     </dependency>
+      <dependency>
+        <groupId>org.codehaus.groovy</groupId>
+        <artifactId>groovy-all</artifactId>
+        <version>${groovy.version}</version>
+        <type>pom</type>
+      </dependency>
     <dependency>
       <groupId>org.apache.hadoop</groupId>
       <artifactId>hadoop-common</artifactId>
